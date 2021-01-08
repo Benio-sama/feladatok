@@ -1,0 +1,88 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(/img/hatter.jpg);
+}
+
+#center {
+    margin: auto;
+    width: 50%;
+    text-align: justify;
+}
+
+#t {
+    border-collapse: collapse;
+}
+
+#h {
+    text-align: center;
+    background-image: url(/img/fejlec.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 141px;
+}
+
+#contact-all {
+    color: #800000;
+    vertical-align: top;
+    background-color: #e8e8e8;
+    margin: 0px;
+    padding: 15px 0px 0px 15px;
+}
+
+#padding {
+    padding-left: 50px;
+    padding-right: 70px;
+}
+
+#p {
+    margin-bottom: 0px;
+}
+
+#contact-info {
+    text-align: left;
+    font-size: small;
+}
+
+#address {
+    margin-top: 0px;
+}
+
+#main-txt {
+    background-image: url(/img/tartalomkep.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 54%;
+    background-color: #ffffff;
+    color: #484848;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 20px;
+    word-spacing: 1px;
+}
+
+#p1 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#p2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#p3 {
+    margin-top: 25px;
+}
+
+#img1 {
+    padding: 0px;
+}
+
+#img2 {
+    width: 100%;
+    display: flex;
+}
+
+#void {
+    background-color: #ffffff;
+}
