@@ -1,0 +1,89 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: #808080;
+    color: #ffffff;
+    margin: 25px;
+    text-align: justify;
+}
+
+table{
+    box-shadow: 5px 5px 5px #1d1d4e;
+}
+
+hr{
+    clear: both;
+    background-color: #1d1d4e;
+    border: 0px;
+    height: 1px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#balkep{
+    border: 1px solid #1d1d4e;
+    box-shadow: 5px 5px 5px #1d1d4e;
+}
+
+#left{
+    border: 1px dotted #1d1d4e;
+    font-weight: bold;
+    text-align: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#right{
+    border: 1px dotted #1d1d4e;
+    font-style: italic;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px
+}
+
+#blank{
+    clear:both
+}
+
+#balkep{
+    float: left;
+    height: 110px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+#jobbkep{
+    float: right;
+    height: 250px;
+}
+
+.fejsor{
+    background-color: #1d1d4e;
+    font-weight: bold;
+    text-align: center;
+}
+
+.forras{
+    font-style: italic;
+    margin-top: 5px;
+    text-align: center;
+}
+
+a:link{
+    color: #5A268A;
+}
+
+a:active{
+    color: #ff0000;
+}
+
+a:visited{
+    color: #5A268A;
+}

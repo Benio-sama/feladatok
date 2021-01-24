@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <title>asd</title>
+        <body style="background-color: rgb(135, 242, 250);">
+            <table style="width: 720px;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="user">Név</label>
+                            <input type="text" name="user" id="user">
+                        </td>
+                        <td>
+                            <label for="age">Kor</label>
+                            <input type="number" name="age" id="age">
+                        </td>    
+                    </tr>
+                    <tr>
+                        <td>    
+                            <fieldset style="height:100px;">
+                                <legend>Végzettség</legend>    
+                                    <div>    
+                                        <input type="checkbox" name="vegzettseg" id="v1" value="lehetoseg1">
+                                        <label for="v1">Általános iskola</label>
+                                    </div>
+                                    <div>    
+                                        <input type="checkbox" name="vegzettseg" id="v2" value="lehetoseg2">
+                                        <label for="v2">Érettségi</label>
+                                    </div>
+                                    <div>    
+                                        <input type="checkbox" name="vegzettseg" id="v3" value="lehetoseg3">
+                                        <label for="v3">Főiskola/Egyetem</label>
+                                    </div>
+                                    <div>    
+                                        <input type="checkbox" name="vegzettseg" id="v4" value="lehetoseg4">
+                                        <label for="v4">OKJ</label>
+                                    </div>    
+                            </fieldset>
+                        </td>
+                        <td>            
+                            <fieldset style="height:100px;">
+                                <legend>Részleg</legend>
+                                    <div>
+                                        <input type="radio" name="reszleg" id="r1" value="reszleg1">
+                                        <label for="r1">HR osztály</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="reszleg" id="r2" value="reszleg2">
+                                        <label for="r2">Pénzügy</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="reszleg" id="r3" value="reszleg3">
+                                        <label for="r3">Fejlesztés</label>
+                                    </div>
+                            </fieldset>
+                        </td>
+                    </tr>        
+                </tbody>
+            </table>
+            <label for="tapasztalat">
+                Tapasztalat:
+                <select name="tapasztalat" id="t">
+                    <option value="0">Pályakezdő</option>
+                    <option value="1">Kis tapasztalat</option>
+                    <option value="2">Tapasztalt</option>
+                </select>
+            </label>
+            <input type="button" value="Küldés">
+        </body>
+</html>
