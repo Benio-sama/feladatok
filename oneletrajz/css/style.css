@@ -1,0 +1,71 @@
+body {
+    background-image: url("/img/ditf hatter.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#div {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 960px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: rgb(255, 153, 153);
+    font-size: 45px;
+    font-style: bold;
+    text-decoration: underline solid rgb(255, 153, 153);
+}
+
+h2 {
+    color: rgb(80, 205, 255);
+    font-style: italic;
+    font-size: 40px;
+}
+
+#h2 {
+    margin: auto;
+    width: 900px;
+}
+
+#p {
+    font-style: italic;
+    color: rgb(44, 34, 73);
+}
+
+#img {
+    width: 200px;
+    float: right;
+    border: 2px solid black;
+}
+
+#div1 {
+    margin: auto;
+    width: 900px;
+}
+
+#div2 {
+    margin: auto;
+    width: 900px;
+    font-size: 23px;
+    padding-left: 20px;
+}
+
+#div3 {
+    margin: auto;
+    width: 900px;
+    font-size: 23px;
+    padding-left: 20px;
+}
+
+#div4 {
+    margin: auto;
+    width: 900px;
+    font-size: 23px;
+    padding-left: 20px;
+}
