@@ -1,0 +1,68 @@
+#c{
+    width: max-content;
+    margin: auto;
+    
+}
+
+#j{
+    text-align: right;
+}
+
+#plusz{
+    padding-right: 150px;
+}
+
+#egyenlo{
+    padding-right: 50px;
+}
+
+#harom{
+    position: absolute;
+    left: 1038px;
+    top: 80px;
+    font-size: 50px;
+    margin: 0;
+}
+
+#hat{
+    position: absolute;
+    left: 1038px;
+    top: 185px;
+    font-size: 50px;
+    margin: 0;
+}
+#het{
+    position: absolute;
+    left: 1140px;
+    top: 80px;
+    font-size: 50px;
+    margin: 0;
+}
+#harom2{
+    position: absolute;
+    left: 1140px;
+    top: 185px;
+    font-size: 50px;
+    margin: 0;
+}
+#nulla1{
+    position: absolute;
+    left: 1036px;
+    top: 325px;
+    font-size: 50px;
+    margin: 0;
+}
+#nulla2{
+    position: absolute;
+    left: 1140px;
+    top: 325px;
+    font-size: 50px;
+    margin: 0;
+}
+#egy{
+    position: absolute;
+    left: 934px;
+    top: 325px;
+    font-size: 50px;
+    margin: 0;
+}
