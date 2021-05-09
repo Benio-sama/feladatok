@@ -1,0 +1,31 @@
+#cím {
+    margin-bottom: 0px;
+}
+
+#main {
+    background-color: rgba(125, 24, 51, 0.9);
+    margin: auto;
+    padding: 10px;
+    width: 1050px;
+}
+
+#picsi {
+    border: 7px solid orange;
+    height: 200px;
+    width: 225px;
+}
+
+#verybig {
+    border: 7px solid orange;
+    float: left;
+    height: 418px;
+    width: 295px;
+}
+
+hr {
+    margin: 0px;
+}
+
+body {
+    background-image: url(img/background.png);
+}
