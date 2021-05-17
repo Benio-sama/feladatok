@@ -1,0 +1,169 @@
+#background {
+    background-image: url("/img/hatter.png"); 
+    background-size: 250px 200px;
+}
+
+#div {
+    width: 880px;
+    margin: auto;
+    background-color: pink;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+}
+
+#div2 {
+    width: 880px;
+    margin: auto;
+    background-color: pink;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+}
+
+#img {
+    width: 180px;
+}
+
+#img2 {
+    width: 90px;
+    float: left;
+    
+}
+
+#grid {
+    text-align: justify; 
+    width: 865px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 430px 430px;
+    grid-template-rows: 400px 400px 400px;
+    grid-gap: 5px;
+}
+
+#grid2 {
+    text-align: justify; 
+    width: 821px;
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px;
+    grid-template-rows: 200px ;
+    grid-gap: 7px;
+
+}
+
+#lilbub {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#bob {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#meow {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#grumpycat {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#owlkitty {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#maru {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#lilbubimg {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#bobimg {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#grumpycatimg {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#meowimg {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+  
+  /* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+  
+.column img:hover {
+    opacity: 1;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+    position: relative;
+    display: none;
+}
+  
+  /* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+  
+  /* Closable button inside the image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
