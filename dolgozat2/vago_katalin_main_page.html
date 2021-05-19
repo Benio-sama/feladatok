@@ -3,37 +3,107 @@
 
 <head>
     <title>Animék</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
-    <link type="text/css" rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 
 <body>
-    <div id="div1">
-        <div id="div2">
-            <h1>Animék, amiket...</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="vago_katalin_main_page.html">Animék, amik a...</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto"></div>
+                <a class="nav-link active" href="vago_katalin_main_page.html">Kedvenceim<span class="badge badge-success">100%</span><span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="nezek.html">Nézek</a>
+                <a class="nav-link" href="lattam.html">Láttam</a>
+                <a class="nav-link" href="tervezem_megnezni.html">Tervezem megnézni</a>
+                <a class="nav-link" href="hold_on.html">Néztem, de majd később folytatom</a>
+                <a class="nav-link" href="trailer.html">You need to watch this!</a>
+            </div>
         </div>
-        <div id="video">
-            <video id="mp4" controls>
-                <source src="/img/If_Anime_Had_A_Trailer.mp4" style="video/mp4">
-            </video>
+    </nav>
+        <div class="container my-4 mx-auto">
+            <div class="jumbotron text-center">
+                <h1 class="my-4 mx-4">Kedvenceim</h1>
+                <div class="row">
+                    <div class="col-sm">
+                        <a type="button" href="https://myanimelist.net/anime/32105/Sousei_no_Onmyouji" target="_blank"><img src="/img/6d51f485598784e2873d246a2c3894e7.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="col-sm">
+                        <a type="button" href="https://myanimelist.net/anime/35849/Darling_in_the_FranXX?q=darling&cat=anime" target="_blank"><img src="/img/DARLING_in_the_FRANXX,_second_key_visual.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="col-sm">
+                        <a type="button" href="https://myanimelist.net/anime/37779/Yakusoku_no_Neverland?q=the%20promised&cat=anime" target="_blank"><img src="/img/MV5BMTYwYjYyZDgtMTQ3My00YTI4LThmZTUtZmU1MjllOWRlOTdhXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="col-sm">
+                        <a type="button" href="https://myanimelist.net/anime/22319/Tokyo_Ghoul?q=toky&cat=anime" target="_blank"><img src="/img/tokyo-ghoul-ken-kaneki-i28409.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="col-sm">
+                        <a type="button" href="https://myanimelist.net/anime/11757/Sword_Art_Online?q=SWOR&cat=anime" target="_blank"><img src="/img/104e61bf65b34be5bb9656b16d277bec.jpg" class="img-fluid"></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="div3">
-            <ul>
-                <li><a href="lattam.html">Láttam</a></li>
-                <li><a href="nezek.html">Nézek</a></li>
-                <li><a href="tervezem_megnezni.html">Tervezem megnézni</a></li>
-                <li><a href="hold_on.html">Néztem és majd később folytatom</a></li>
-                <li><a href="vago_katalin_main_page.html">Kedvenceim:</a></li>
-                <ol>
-                    <li><a href="https://myanimelist.net/anime/32105/Sousei_no_Onmyouji">Twin Star Exorcists</a><p><img id="img1" src="/img/6d51f485598784e2873d246a2c3894e7.jpg"></p></li>
-                    <li><a href="https://myanimelist.net/anime/35849/Darling_in_the_FranXX?q=darling&cat=anime">Darling in the FRANXX</a><p><img id="img1" src="/img/DARLING_in_the_FRANXX,_second_key_visual.jpg"></p></li>
-                    <li><a href="https://myanimelist.net/anime/37779/Yakusoku_no_Neverland?q=the%20promised&cat=anime">The Promised Neverland</a><p><img id="img1" src="/img/MV5BMTYwYjYyZDgtMTQ3My00YTI4LThmZTUtZmU1MjllOWRlOTdhXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg"></p></li>
-                    <li><a href="https://myanimelist.net/anime/22319/Tokyo_Ghoul?q=toky&cat=anime">Tokyo Ghoul</a><p><img id="img1" src="/img/tokyo-ghoul-ken-kaneki-i28409.jpg"></p></li>
-                    <li><a href="https://myanimelist.net/anime/11757/Sword_Art_Online?q=SWOR&cat=anime">Sword art Online season 01</a><p><img id="img1" src="/img/104e61bf65b34be5bb9656b16d277bec.jpg"></p></li>
-                </ol>
-            </ul>
-        </div>
+    <hr>
+    <div class="mx-4">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Episodes</th>
+                <th scope="col">First Airing</th>
+                <th scope="col">IMDB rating</th>
+                <th scope="col">Premiered</th>
+                <th scope="col">Genres</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Twin Star Exorcists</th>
+                    <td>50</td>
+                    <td>Apr 6, 2016</td>
+                    <td>7.1</td>
+                    <td>Spring 2016</td>
+                    <td>Action, Supernatural, Romance, Fantasy, Shounen</td>
+                </tr>
+                <tr>
+                    <th scope="row">Darling in the FRANXX</th>
+                    <td>24</td>
+                    <td>Jan 13, 2018</td>
+                    <td>7.4</td>
+                    <td>Winter 2018</td>
+                    <td>Action, Drama, Mecha, Romance, Sci-Fi</td>
+                </tr>
+                <tr>
+                    <th scope="row">The Promised Neverland</th>
+                    <td>12</td>
+                    <td>Jan 10, 2019</td>
+                    <td>8.6</td>
+                    <td>Winter 2019</td>
+                    <td>Sci-Fi, Mystery, Horror, Psychological, Thriller, Shounen</td>
+                </tr>
+                <tr>
+                    <th scope="row">Tokyo Ghoul</th>
+                    <td>48 (All Season)</td>
+                    <td>Jul 4, 2014</td>
+                    <td>7.4 (averange)</td>
+                    <td>Summer 2014</td>
+                    <td>Action, Mystery, Horror, Psychological, Supernatural, Drama, Seinen</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sword art Online season 01</th>
+                    <td>25</td>
+                    <td>Jul 8, 2012</td>
+                    <td>7.6</td>
+                    <td>Summer 2012</td>
+                    <td>Action, Game, Adventure, Romance, Fantasy</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 

@@ -3,31 +3,75 @@
 
 <head>
     <title>Animék</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
-    <link type="text/css" rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 
 <body>
-    <div id="div1">
-        <div id="div2">
-            <h1>Animék, amiket nézek</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="vago_katalin_main_page.html">Animék, amiket...</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto"></div>
+                <a class="nav-link" href="vago_katalin_main_page.html">Kedvenceim<span class="badge badge-success">100%</span></a>
+                <a class="nav-link active" href="nezek.html">Nézek<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="lattam.html">Láttam</a>
+                <a class="nav-link" href="tervezem_megnezni.html">Tervezem megnézni</a>
+                <a class="nav-link" href="hold_on.html">Néztem, de majd később folytatom</a>
+                <a class="nav-link" href="trailer.html">You need to watch this!</a>
+            </div>
         </div>
-        <div id="div3">
-            <ul>
-                <li><a href="lattam.html">Láttam</a></li>
-                <li><a href="tervezem_megnezni.html">Tervezem megnézni</a></li>
-                <li><a href="hold_on.html">Néztem és majd később folytatom</a></li>
-                <li><a href="vago_katalin_main_page.html">Kedvenceim</a></li>
-            </ul>
-        </div>
-        <div id="div3">
-            <ul>
-                    <li><a href="https://myanimelist.net/anime/38656/Darwins_Game">Darwin's Game</a><p><img id="img1" src="/img/65b02217acb8a0c4983fbefaaea92007.jpg"></p></li>
-                    <li><a href="https://myanimelist.net/anime/25777/Shingeki_no_Kyojin_Season_2">Attack on Titan Season 2</a><p><img id="img1" src="/img/fab1ce8aeed344f254a7c8f57b18de9f.jpg"></p></li>
-            </ul>
-        </div>
+    </nav>
+    <div class="container my-4 mx-auto">
+        <div class="jumbotron text-center">
+            <h1 class="my-4 mx-4">Nézek</h1>
+            <div class="row">
+                <div class="col-sm">
+                    <a type="button" href="https://myanimelist.net/anime/38656/Darwins_Game" target="_blank"><img src="/img/65b02217acb8a0c4983fbefaaea92007.jpg" class="img-fluid"></a>
+                </div>
+                <div class="col-sm">
+                    <a type="button" href="https://myanimelist.net/anime/25777/Shingeki_no_Kyojin_Season_2" target="_blank"><img src="/img/fab1ce8aeed344f254a7c8f57b18de9f.jpg" class="img-fluid w-50"></a>
+                </div>
+            </div>
+        </div> 
     </div>
+    <hr>
+    <div class="mx-4">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Episodes</th>
+                <th scope="col">First Airing</th>
+                <th scope="col">IMDB rating</th>
+                <th scope="col">Premiered</th>
+                <th scope="col">Genres</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">Darwin's Game</th>
+                <td>11</td>
+                <td>Jan 4, 2020</td>
+                <td>7.4</td>
+                <td>Winter 2020</td>
+                <td>Action, Sci-Fi, Mystery, Super Power, Shounen</td>
+              </tr>
+              <tr>
+                <th scope="row">Attack on Titan Season 2</th>
+                <td>12</td>
+                <td>Apr 1, 2017</td>
+                <td>8.4</td>
+                <td>Spring 2017</td>
+                <td>Action, Military, Mystery, Super Power, Drama, Fantasy, Shounen</td>
+              </tr>
+            </tbody>
+        </table>
+    </div>        
 </body>
 
 </html>
